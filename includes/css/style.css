@@ -510,11 +510,11 @@ a.prescription:hover{
 
     }
     .profileSettings{
-        left: 20%;
+        left: 15%;
     }
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 405px){
     .nameMedicine {
         font-size: 24px;
         left: 34%;
@@ -660,7 +660,7 @@ a.prescription:hover{
 
      }
      .profileSettings{
-         left: 10%;
+         left: 5%;
      }
 
 }
