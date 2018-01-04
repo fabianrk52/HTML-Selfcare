@@ -521,7 +521,7 @@ a.prescription:hover{
     }
 
     #notification{
-        height: 8%;
+        height: 10%;
     }
 
     .imgWeather{
@@ -660,7 +660,7 @@ a.prescription:hover{
 
      }
      .profileSettings{
-         left: 15%;
+         left: 10%;
      }
 
 }
