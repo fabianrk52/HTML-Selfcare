@@ -15,7 +15,7 @@ function medPic(){
     var currentdate = new Date();
     
 	if(currentdate.getHours()>20){
-        g_el[1].style.background="linear-gradient(to bottom, #0000cc 0%, #000000 100%)";
+        g_el[1].style.background="linear-gradient(to bottom, #999966 0%, #669999 100%)";
         pic.src="images/night.png";
         pic.width="100%;"
         pic.className="imgWeather";
