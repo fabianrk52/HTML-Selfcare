@@ -32,6 +32,7 @@
         color: black;
         display: inline;
         position: relative;
+        font-size: 18px
     }
 
     .navbar-dark .navbar-nav .nav-link {
@@ -660,7 +661,7 @@ a.prescription:hover{
 
      }
      .profileSettings{
-         left: 5%;
+         left: 1%;
      }
 
 }
