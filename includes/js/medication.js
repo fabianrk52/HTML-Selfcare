@@ -44,5 +44,4 @@ function createButton(){
   		el.appendChild(line); 		
   	}
     content.appendChild(el);
-    content.appendChild(createAdd());
 })();

@@ -7,7 +7,15 @@
 #head{
         background-color: rgba(138, 240, 189, 0.575);
         height: 7%;
-    }
+}
+.logo{
+	background-image: url("/images/logo2.png");
+	height: 40px;
+    width: 40px;
+    position: relative;
+    background-repeat: no-repeat;
+    
+}
     body{
         width: 100%;
         height: 100%;
@@ -444,27 +452,27 @@ a.prescription:hover{
         }
     .nameMedicine{
         font-size: 30px;
-        left: 44%;
+        left: 38%;
     }
     .heartbeat{
-        left: 60%;
+        left: 50%;
     }
     .buttonInstruction{
         left:62%;
         font-size: 90%;
     }
     .pressure{
-        left: 50%;
+        left: 32%;
     }
     .heart{
         left: 22%;
     }
     .pulse{
-        left: 16%;  
+        left: 12%;  
     }
     .nameProfile{
-        font-size: 180%;
-        left:15%;
+        font-size: 150%;
+        left:18%;
     }
     .idProfile {
         padding-left: 18%;
@@ -492,8 +500,8 @@ a.prescription:hover{
 
     .notificationText{
         top: 18%;
-        left: 30%;
-        font-size: 140%;
+        left: 18%;
+        font-size: 120%;
     }
     .imgProfile{
         width: 140px;
@@ -501,19 +509,15 @@ a.prescription:hover{
         left: 15%;
 
     }
-    .nameProfile {
-        font-size: 170%;
-        left:45%;
-    }
     .profileSettings{
-        left: 55%;
+        left: 20%;
     }
 }
 
-@media screen and (max-width: 410px){
+@media screen and (max-width: 420px){
     .nameMedicine {
         font-size: 24px;
-        left: 38%;
+        left: 34%;
     }
 
     #notification{
@@ -521,9 +525,8 @@ a.prescription:hover{
     }
 
     .imgWeather{
-        left: 10%;
-        width: 35%;
-        top: -3%;
+        left: 15%;
+        width: 120px;
     }
 
     .imgProfile{
@@ -546,13 +549,13 @@ a.prescription:hover{
         left: 18%;
     }
     .pulse{
-        left: 5%;  
+        left: 7%;  
     }
     .heartbeat {
         left: 40%;
     }
     .pressure{
-        left: 18%;
+        left: 22%;
     }
 
     .notificationPic{
@@ -657,7 +660,7 @@ a.prescription:hover{
 
      }
      .profileSettings{
-         left: 5%;
+         left: 15%;
      }
 
 }
